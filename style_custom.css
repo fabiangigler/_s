@@ -1,0 +1,54 @@
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-size: 112.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', serif;
+}
+
+h1 {
+  font-size: 2.488em;
+}
+
+h2 {
+  font-size: 2.074em;
+}
+
+h3 {
+  font-size: 1.728em;
+}
+
+h4 {
+  font-size: 1.44em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+.site-header>.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-branding,
+.main-navigation {
+  flex: 1 1 auto;
+  padding: 20px 0;
+}
+
+.main-navigation {
+  text-align: right;
+}
+
+.site-title {
+  margin: 0;
+}

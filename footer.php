@@ -11,12 +11,15 @@
 
 ?>
 
-	</div><!-- #content -->
+		</div><!-- #content -->
+	</div><!-- .container -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			&copy; <?php echo date('Y'); ?>
-		</div><!-- .site-info -->
+		<div class="container">
+			<div class="site-info">
+				&copy; <?php echo date('Y'); ?>
+			</div><!-- .site-info -->
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

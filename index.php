@@ -18,20 +18,20 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-		<?php
-		if ( have_posts() ) {
+				<?php
+				if ( have_posts() ) {
 
-			/* Start the Loop */
-			while ( have_posts() ) {
-				the_post();
-				/* Include the Post-Type-specific template for the content. */
-				get_template_part( 'template-parts/content', get_post_type() );
-			}
+					/* Start the Loop */
+					while ( have_posts() ) {
+						the_post();
+						/* Include the Post-Type-specific template for the content. */
+						get_template_part( 'template-parts/content', get_post_type() );
+					}
 
-		} else {
-			get_template_part( 'template-parts/content', 'none' );
-		}
-		?>
+				} else {
+					get_template_part( 'template-parts/content', 'none' );
+				}
+				?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
